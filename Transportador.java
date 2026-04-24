@@ -1,3 +1,3 @@
 public interface Transportador {
-    public boolean transportar_a(EntidadBase entity);
+    public boolean transportar_a(Desplazable entity);
 }
