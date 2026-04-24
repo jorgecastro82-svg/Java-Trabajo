@@ -5,10 +5,11 @@ public class Vendedor extends EntidadMovible implements Parlante{
         cordY=y;
     }
     public String speak(){
-        return "¿Qué te gustaría comprar, aventurero?"
+        return "¿Qué te gustaría comprar, aventurero?";
     }
-    public void move(double x,double y){
+    public boolean move(double x,double y){
         cordX=x;
         cordY=y;
+        return true
     }
 }
