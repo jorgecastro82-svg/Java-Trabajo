@@ -1,5 +1,5 @@
 public class Vendedor extends EntidadMovible implements Parlante{
-    Vendedor(){
+    Vendedor(String n,double x,double y){
         nombre=n;
         cordX=x;
         cordY=y;
