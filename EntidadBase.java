@@ -1,6 +1,6 @@
 public abstract class EntidadBase{
-    protected int vida;
-    protected int vidamax;
+    protected double cordX;
+    protected double cordY;
     protected String nombre;
     protected void dispInfo();
 }

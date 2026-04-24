@@ -4,10 +4,19 @@ public class Cofre implements DropLoot,Danable extends EntidadEstatica{
         vidamax=vm;
         nombre=n;
     }
-    dispInfo(){
+    public dispInfo(){
+        disp_hp();
 
     }
-    disp_hp(){
-        System.out.prinln("hp"+vida)
+    public disp_hp(){
+        System.out.prinln("hp"+vida);
+    }
+    public get_damage(int damage_points){
+        if()
+        vida-=damage_points;
+        return true;
+    }
+    public is_vivo(){
+        return vida>0;
     }
 }
