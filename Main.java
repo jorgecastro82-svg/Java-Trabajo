@@ -1,3 +1,5 @@
 public class Main {
-    asdasd
+    public void camarones(){
+
+    }
 }
