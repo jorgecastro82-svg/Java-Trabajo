@@ -1,5 +1,6 @@
 public class Main {
-    public void camarones(int frescos){
+    public void camarones(int xddwe){
         int gestorMascota = 0;
     }
 }
+
